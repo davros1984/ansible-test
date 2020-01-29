@@ -3,7 +3,6 @@
    connection: local
    gather_facts: true
    ignore_errors: no
-   remote_user: dave
    become: true
    tasks:
     - name: gather os facts
