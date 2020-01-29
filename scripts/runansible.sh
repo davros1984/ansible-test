@@ -1,3 +1,2 @@
 #!/bin/bash
-WORKINGDIR=$(dirname simple.yml)
-ansible-playbook $WORKINGDIR/simple.yml -i localhost
+ansible-playbook /home/ec2-user/simple.yml -i localhost
