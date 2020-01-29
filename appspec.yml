@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /scripts/simple.yml
-    destination: /home/ec2-user/simple.yml
+  - source: scripts/simple.yml
+    destination: /home/ec2-user
 hooks:
   AfterInstall:
     - location: scripts/runansible.sh
