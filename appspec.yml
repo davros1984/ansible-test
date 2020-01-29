@@ -1,6 +1,7 @@
+version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: scripts/runansible.sh
-      timeout: 300
+    - location: scripts/simple.sh
+      timeout: 60
       runas: root
