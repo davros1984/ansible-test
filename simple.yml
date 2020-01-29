@@ -12,3 +12,6 @@
 
     - name: print os facts
       debug: var=theFacts
+
+    - name: create test file
+      file: path=/home/ec2-user/testfile1.txt state=touch
